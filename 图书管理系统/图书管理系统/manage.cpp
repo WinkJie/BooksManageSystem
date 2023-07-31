@@ -37,7 +37,7 @@ int manage::getManage()//登录函数
 	while(!in.eof());//判断是否到文件尾
 
     if(i==0)//未找到账号
-	cout<<"输入不正确！" <<endl;
+		cout<<"输入不正确！" <<endl;
     return 0;//返回假值
     in.close();//关闭文件
 }
